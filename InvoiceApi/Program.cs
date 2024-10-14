@@ -48,7 +48,7 @@ builder.Services.AddHostedService<Worker>();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
-  options.UseSqlServer(connectionString));
+  options.UseSqlServer(connectionString, b=>b.MigrationsAssembly("InvoiceApi")));
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
 
 var app = builder.Build();
