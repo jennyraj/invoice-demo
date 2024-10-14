@@ -1,0 +1,27 @@
+[
+  {
+    "ContainingType": "InvoiceApi.InvoiceEndpointsExt\u002B\u003C\u003Ec",
+    "Method": "\u003CMapInvoiceEndPoints\u003Eb__0_0",
+    "RelativePath": "weatherforecast",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "InvoiceDemo.Models.Invoice",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
