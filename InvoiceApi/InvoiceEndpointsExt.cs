@@ -7,14 +7,16 @@ namespace InvoiceApi
     {
         public static void MapInvoiceEndPoints(this WebApplication app)
         {
-             
-            app.MapGet("/weatherforecast", ([FromServices] IInvoiceService service, string name) =>
-                    {
-                        return service.GetInvoice(name);
-                    }
+            app.MapGet("/Invoice",
+                    ([FromServices] IInvoiceService service, string name) => { return service.GetInvoice(name); }
+                )
+                .WithName("GetInvoice")
+                .WithOpenApi();
             
-            )
-            .WithName("GetWeatherForecast")
+            app.MapPost("/Invoice",
+                    ([FromServices] IInvoiceService service, string name) => { return service.CreateInvoice(name); }
+                )
+                .WithName("CreateInvoice")
                 .WithOpenApi();
         }
     }

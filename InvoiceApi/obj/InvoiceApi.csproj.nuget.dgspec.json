@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\barulan\\.nuget\\packages\\",
         "outputPath": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -47,8 +48,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -57,6 +57,10 @@
             "MassTransit": {
               "target": "Package",
               "version": "[8.*, 9.0.0)"
+            },
+            "MassTransit.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.2.5, )"
             },
             "MassTransit.RabbitMQ": {
               "target": "Package",
@@ -111,6 +115,7 @@
         "packagesPath": "C:\\Users\\barulan\\.nuget\\packages\\",
         "outputPath": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -141,8 +146,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -151,6 +155,10 @@
             "MassTransit": {
               "target": "Package",
               "version": "[8.*, 9.0.0)"
+            },
+            "MassTransit.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.2.5, )"
             },
             "MassTransit.RabbitMQ": {
               "target": "Package",

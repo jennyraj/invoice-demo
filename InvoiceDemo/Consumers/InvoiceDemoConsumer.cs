@@ -11,7 +11,7 @@ namespace InvoiceDemo.Consumers
     public class InvoiceDemoConsumer :
         IConsumer<InvoiceData>
     {
-        readonly ILogger<InvoiceDemoConsumer> _logger;
+        private readonly ILogger<InvoiceDemoConsumer> _logger;
 
         public InvoiceDemoConsumer(ILogger<InvoiceDemoConsumer> logger)
         {
