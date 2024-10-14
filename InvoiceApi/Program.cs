@@ -35,7 +35,7 @@ builder.Services.AddMassTransit(busConfig =>
 
    busConfig.AddConsumers(typeof(InvoiceDemoConsumer));
   
-    //IN MEMORY
+    //IN MEMORY 
     // x.UsingInMemory((context, cfg) =>
     // {
     //     cfg.ConfigureEndpoints(context);
