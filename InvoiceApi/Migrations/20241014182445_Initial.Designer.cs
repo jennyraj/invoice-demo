@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InvoiceApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241014140744_Outbox")]
-    partial class Outbox
+    [Migration("20241014182445_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

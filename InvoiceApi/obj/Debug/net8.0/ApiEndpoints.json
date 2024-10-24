@@ -2,7 +2,7 @@
   {
     "ContainingType": "InvoiceApi.InvoiceEndpointsExt\u002B\u003C\u003Ec",
     "Method": "\u003CMapInvoiceEndPoints\u003Eb__0_0",
-    "RelativePath": "weatherforecast",
+    "RelativePath": "Invoice",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -22,6 +22,29 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "EndpointName": "GetInvoice"
+  },
+  {
+    "ContainingType": "InvoiceApi.InvoiceEndpointsExt\u002B\u003C\u003Ec",
+    "Method": "\u003CMapInvoiceEndPoints\u003Eb__0_1",
+    "RelativePath": "Invoice",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "CreateInvoice"
   }
 ]

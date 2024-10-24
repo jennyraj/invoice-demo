@@ -28,9 +28,10 @@ public class InvoiceService(AppDbContext dbContext, IBus bus, IPublishEndpoint p
         DbContext.Invoices.Add(invoice);
       
         var invoiceData=new InvoiceData { Value = $"{DateTimeOffset.Now}:invoice {name} is saved"};
-        
-        //await bus.Publish( invoiceData, default);
-        await publishEP.Publish<InvoiceData>( invoiceData, default);
+      
+        //1. Publish to Service bus
+        //2. Save to DB
+        await publishEP.Publish<InvoiceData>( invoiceData, default); //await bus.Publish( invoiceData, default);
         await DbContext.SaveChangesAsync();
          
     }

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\InvoiceApi.csproj": {}
+    "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceApi\\InvoiceApi.csproj": {}
   },
   "projects": {
-    "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\InvoiceApi.csproj": {
+    "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceApi\\InvoiceApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\InvoiceApi.csproj",
+        "projectUniqueName": "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceApi\\InvoiceApi.csproj",
         "projectName": "InvoiceApi",
-        "projectPath": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\InvoiceApi.csproj",
-        "packagesPath": "C:\\Users\\barulan\\.nuget\\packages\\",
-        "outputPath": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\obj\\",
+        "projectPath": "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceApi\\InvoiceApi.csproj",
+        "packagesPath": "C:\\Users\\benjamina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceApi\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
-          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\barulan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\benjamina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,17 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\InvoiceDemo.csproj": {
-                "projectPath": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\InvoiceDemo.csproj"
+              "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceDemo\\InvoiceDemo.csproj": {
+                "projectPath": "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceDemo\\InvoiceDemo.csproj"
               }
             }
           }
@@ -47,7 +49,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -102,25 +104,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\InvoiceDemo.csproj": {
+    "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceDemo\\InvoiceDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\InvoiceDemo.csproj",
+        "projectUniqueName": "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceDemo\\InvoiceDemo.csproj",
         "projectName": "InvoiceDemo",
-        "projectPath": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\InvoiceDemo.csproj",
-        "packagesPath": "C:\\Users\\barulan\\.nuget\\packages\\",
-        "outputPath": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\obj\\",
+        "projectPath": "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceDemo\\InvoiceDemo.csproj",
+        "packagesPath": "C:\\Users\\benjamina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\benjamina\\Source\\Repos\\invoice-demo\\InvoiceDemo\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
-          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\barulan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\benjamina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,7 +130,9 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -145,7 +149,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -191,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,42 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\MQProjects\\InvoiceApiMain\\",
+  "WorkspaceRootPath": "C:\\Users\\benjamina\\source\\repos\\invoice-demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|d:\\mqprojects\\invoiceapimain\\invoicedemo\\invoiceservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|solutionrelative:invoicedemo\\invoiceservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|d:\\mqprojects\\invoiceapimain\\invoicedemo\\configurations\\invoiceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|solutionrelative:invoicedemo\\configurations\\invoiceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|d:\\mqprojects\\invoiceapimain\\invoicedemo\\configurations\\invoiceitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|solutionrelative:invoicedemo\\configurations\\invoiceitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|d:\\mqprojects\\invoiceapimain\\invoicedemo\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|solutionrelative:invoicedemo\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|d:\\mqprojects\\invoiceapimain\\invoicedemo\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|solutionrelative:invoicedemo\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F653E87-B2CA-464F-8F31-A86BBA754AAA}|InvoiceApi\\InvoiceApi.csproj|d:\\mqprojects\\invoiceapimain\\invoiceapi\\invoiceendpointsext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F653E87-B2CA-464F-8F31-A86BBA754AAA}|InvoiceApi\\InvoiceApi.csproj|solutionrelative:invoiceapi\\invoiceendpointsext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F653E87-B2CA-464F-8F31-A86BBA754AAA}|InvoiceApi\\InvoiceApi.csproj|d:\\mqprojects\\invoiceapimain\\invoiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F653E87-B2CA-464F-8F31-A86BBA754AAA}|InvoiceApi\\InvoiceApi.csproj|c:\\users\\benjamina\\source\\repos\\invoice-demo\\invoiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F653E87-B2CA-464F-8F31-A86BBA754AAA}|InvoiceApi\\InvoiceApi.csproj|solutionrelative:invoiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F653E87-B2CA-464F-8F31-A86BBA754AAA}|InvoiceApi\\InvoiceApi.csproj|d:\\mqprojects\\invoiceapimain\\invoiceapi\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F653E87-B2CA-464F-8F31-A86BBA754AAA}|InvoiceApi\\InvoiceApi.csproj|solutionrelative:invoiceapi\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|c:\\users\\benjamina\\source\\repos\\invoice-demo\\invoicedemo\\consumers\\invoicedemoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|solutionrelative:invoicedemo\\consumers\\invoicedemoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F653E87-B2CA-464F-8F31-A86BBA754AAA}|InvoiceApi\\InvoiceApi.csproj|d:\\mqprojects\\invoiceapimain\\invoiceapi\\invoiceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7F653E87-B2CA-464F-8F31-A86BBA754AAA}|InvoiceApi\\InvoiceApi.csproj|solutionrelative:invoiceapi\\invoiceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|c:\\users\\benjamina\\source\\repos\\invoice-demo\\invoicedemo\\invoiceservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EF60D9-A918-4B02-AE6D-E45C8F4DAF1A}|InvoiceDemo\\InvoiceDemo.csproj|solutionrelative:invoicedemo\\invoiceservice\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,120 +42,49 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\Models\\Invoice.cs",
-              "RelativeDocumentMoniker": "InvoiceDemo\\Models\\Invoice.cs",
-              "ToolTip": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\Models\\Invoice.cs",
-              "RelativeToolTip": "InvoiceDemo\\Models\\Invoice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:40:09.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InvoiceConfiguration.cs",
-              "DocumentMoniker": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\Configurations\\InvoiceConfiguration.cs",
-              "RelativeDocumentMoniker": "InvoiceDemo\\Configurations\\InvoiceConfiguration.cs",
-              "ToolTip": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\Configurations\\InvoiceConfiguration.cs",
-              "RelativeToolTip": "InvoiceDemo\\Configurations\\InvoiceConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:41:50.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InvoiceItemConfiguration.cs",
-              "DocumentMoniker": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\Configurations\\InvoiceItemConfiguration.cs",
-              "RelativeDocumentMoniker": "InvoiceDemo\\Configurations\\InvoiceItemConfiguration.cs",
-              "ToolTip": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\Configurations\\InvoiceItemConfiguration.cs",
-              "RelativeToolTip": "InvoiceDemo\\Configurations\\InvoiceItemConfiguration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:41:27.321Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InvoiceService.cs",
-              "DocumentMoniker": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\InvoiceService\\InvoiceService.cs",
-              "RelativeDocumentMoniker": "InvoiceDemo\\InvoiceService\\InvoiceService.cs",
-              "ToolTip": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\InvoiceService\\InvoiceService.cs",
-              "RelativeToolTip": "InvoiceDemo\\InvoiceService\\InvoiceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\benjamina\\source\\repos\\invoice-demo\\InvoiceApi\\Program.cs",
+              "RelativeDocumentMoniker": "InvoiceApi\\Program.cs",
+              "ToolTip": "C:\\Users\\benjamina\\source\\repos\\invoice-demo\\InvoiceApi\\Program.cs \u2B24",
+              "RelativeToolTip": "InvoiceApi\\Program.cs \u2B24",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:37:57.567Z",
+              "WhenOpened": "2024-10-15T13:53:56.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InvoiceEndpointsExt.cs",
-              "DocumentMoniker": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\InvoiceEndpointsExt.cs",
-              "RelativeDocumentMoniker": "InvoiceApi\\InvoiceEndpointsExt.cs",
-              "ToolTip": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\InvoiceEndpointsExt.cs",
-              "RelativeToolTip": "InvoiceApi\\InvoiceEndpointsExt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "InvoiceDemoConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\benjamina\\source\\repos\\invoice-demo\\InvoiceDemo\\Consumers\\InvoiceDemoConsumer.cs",
+              "RelativeDocumentMoniker": "InvoiceDemo\\Consumers\\InvoiceDemoConsumer.cs",
+              "ToolTip": "C:\\Users\\benjamina\\source\\repos\\invoice-demo\\InvoiceDemo\\Consumers\\InvoiceDemoConsumer.cs",
+              "RelativeToolTip": "InvoiceDemo\\Consumers\\InvoiceDemoConsumer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:24:20.726Z"
+              "WhenOpened": "2024-10-14T18:28:23.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "InvoiceDemo\\AppDBContext.cs",
-              "ToolTip": "D:\\MQProjects\\InvoiceApiMain\\InvoiceDemo\\AppDBContext.cs",
-              "RelativeToolTip": "InvoiceDemo\\AppDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\benjamina\\source\\repos\\invoice-demo\\InvoiceDemo\\InvoiceService\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "InvoiceDemo\\InvoiceService\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\benjamina\\source\\repos\\invoice-demo\\InvoiceDemo\\InvoiceService\\InvoiceService.cs",
+              "RelativeToolTip": "InvoiceDemo\\InvoiceService\\InvoiceService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwCIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:13:47.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\Worker.cs",
-              "RelativeDocumentMoniker": "InvoiceApi\\Worker.cs",
-              "ToolTip": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\Worker.cs",
-              "RelativeToolTip": "InvoiceApi\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:12:19.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InvoiceApi.csproj",
-              "DocumentMoniker": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\InvoiceApi.csproj",
-              "RelativeDocumentMoniker": "InvoiceApi\\InvoiceApi.csproj",
-              "ToolTip": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\InvoiceApi.csproj",
-              "RelativeToolTip": "InvoiceApi\\InvoiceApi.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T00:50:09.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\Program.cs",
-              "RelativeDocumentMoniker": "InvoiceApi\\Program.cs",
-              "ToolTip": "D:\\MQProjects\\InvoiceApiMain\\InvoiceApi\\Program.cs",
-              "RelativeToolTip": "InvoiceApi\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T22:57:00.18Z",
+              "WhenOpened": "2024-10-14T18:25:38.537Z",
               "EditorCaption": ""
             }
           ]

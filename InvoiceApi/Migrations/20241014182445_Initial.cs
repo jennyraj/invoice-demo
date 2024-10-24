@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace InvoiceApi.Migrations
 {
     /// <inheritdoc />
-    public partial class Outbox : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -32,6 +32,19 @@ namespace InvoiceApi.Migrations
                 {
                     table.PrimaryKey("PK_InboxState", x => x.Id);
                     table.UniqueConstraint("AK_InboxState_MessageId_ConsumerId", x => new { x.MessageId, x.ConsumerId });
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Invoice",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Invoice", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -82,6 +95,24 @@ namespace InvoiceApi.Migrations
                     table.PrimaryKey("PK_OutboxState", x => x.OutboxId);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "InvoiceItem",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_InvoiceItem", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_InvoiceItem_Invoice_Id",
+                        column: x => x.Id,
+                        principalTable: "Invoice",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_InboxState_Delivered",
                 table: "InboxState",
@@ -124,10 +155,16 @@ namespace InvoiceApi.Migrations
                 name: "InboxState");
 
             migrationBuilder.DropTable(
+                name: "InvoiceItem");
+
+            migrationBuilder.DropTable(
                 name: "OutboxMessage");
 
             migrationBuilder.DropTable(
                 name: "OutboxState");
+
+            migrationBuilder.DropTable(
+                name: "Invoice");
         }
     }
 }

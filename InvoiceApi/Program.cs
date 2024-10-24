@@ -33,7 +33,7 @@ builder.Services.AddMassTransit(busConfig =>
 
    var entryAssembly = Assembly.GetEntryAssembly();
 
-   busConfig.AddConsumers(typeof(InvoiceDemoConsumer));
+  //?? busConfig.AddConsumers(typeof(InvoiceDemoConsumer));
   
     //IN MEMORY 
     // x.UsingInMemory((context, cfg) =>
